@@ -12,7 +12,7 @@ def position_taken?(board, index)
   if index < 0 || index > 8
     true
   end
-    
+
   if board[index] == " " || board[index] == "" || board[index] == nil
     false
   else
